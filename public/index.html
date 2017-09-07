@@ -7,10 +7,25 @@
   <title>Document</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
   <link rel="stylesheet" href="/index.css">
+  <link rel="stylesheet" href="/static/bootstrap.min.css">
 </head>
 <body>
-  <div id="wrap" data-temp="3">
-    <h1>Todos</h1>
+  <div id="wrap">
+    <h1>투 두 리스트 <i class="fa fa-bars" aria-hidden="true"></i></h1>
+
+    <!-- 로그인 부분 -->
+    <form class="">
+      <div class="form-row">
+        <div class="col">
+          <label for="id4" class="col-form-label">ID</label>
+          <input type="id" class="form-control" id="id4" placeholder="ID">
+        </div>
+        <div>
+          <label for="inputPassword4" class="col-form-label">Password</label>
+          <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+        </div>
+      </div>
+    </form>
     <!-- 순수 form 이 아닌 JS에서 폼의 정보를 넘긴다. -->
     <form id="todo-form" autocomplete="off">
       <input type="text" name="title">
