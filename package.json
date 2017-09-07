@@ -1,7 +1,7 @@
 {
   "name": "simple-todo-spa",
   "version": "1.0.0",
-  "description": "",
+  "description": "ejs 파일과 html 파일을 연결시켜주는 js파일",
   "main": "index.js",
   "scripts": {
     "start": "node server.js"
@@ -11,7 +11,17 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.17.2",
+    "ejs": "^2.5.7",
     "express": "^4.15.4",
     "morgan": "^1.8.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seultt/to-do-list.git"
+  },
+  "bugs": {
+    "url": "https://github.com/seultt/to-do-list/issues"
+  },
+  "homepage": "https://github.com/seultt/to-do-list#readme"
 }

@@ -33,6 +33,12 @@
             loadTodos()
           })
         })
+        // 수정 아이콘 클릭시
+        // 비관적 업데이트
+        // const modifyLink = todoItem.querySelector('.todo-modify')
+        // modifyLink.addEventListener('click', e => {
+
+        // }) // 완성하지 못함... ㅠㅠ
       })
     })
   }

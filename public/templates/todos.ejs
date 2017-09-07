@@ -7,7 +7,11 @@
       <% } else { %>
         <%= todo.title %>
       <% } %>
+      <i class="todo-modify fa fa-pencil" aria-hidden="true"></i>
       <i class="todo-remove fa fa-remove"></i>
     </div>
+    <form action="/" method="POST" class="modify-form">
+      <input type="text" name="modify">
+    </form>
   <% }) %>
 </div>
